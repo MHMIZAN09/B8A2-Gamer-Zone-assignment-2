@@ -424,6 +424,7 @@ header {
 }
 .card1:hover{
   border: 1px solid #ff42a5;
+  cursor: pointer;
 }
 
 .card1 img {
