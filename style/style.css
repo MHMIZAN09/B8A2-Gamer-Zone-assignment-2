@@ -254,23 +254,6 @@ header {
   font-weight: 400;
   text-align: left;
 }
-.image-container {
-    position: relative;
-    display: inline-block;
-    
-  }
-  
-  .overlay {
-    background-color: #0b0223;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .overlay i{
-    opacity: 0.5; /* Adjust the opacity as desired */
-  }
-  
 /* Container section 4 styles */
 .container-section4 {
   display: flex;
@@ -435,10 +418,12 @@ header {
   border-radius: 50px;
   background: #fff;
   display: flex;
-  border: 1px solid #ff42a5;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.card1:hover{
+  border: 1px solid #ff42a5;
 }
 
 .card1 img {
